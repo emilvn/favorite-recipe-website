@@ -1,7 +1,7 @@
 .container {
    display: grid;
    align-items: center;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
    column-gap: 0px
 }
 
@@ -13,13 +13,13 @@
 
 .text {
     text-align: left;
-    width: 520px;
+    width: 530px;
     height: 325px;
+    background-color: rgb(231, 170, 59);
 }
 
 #recipe-img {
-    width: 500px;
-    height: auto;
+    height: 325px;
 }
 
 body {
