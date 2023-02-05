@@ -30,7 +30,7 @@ nav {
 .container {
    display: grid;
    align-items: center;
-   grid-template-columns: 1fr 1fr auto;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .text {
