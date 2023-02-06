@@ -27,6 +27,12 @@ nav {
     text-align: center;
 }
 
+.menu-btn {
+    margin-right: 60px;
+    background-color: gray;
+    cursor: pointer;
+}
+
 .container {
    display: grid;
    align-items: center;
@@ -69,6 +75,7 @@ nav {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
 }
 
 footer {
