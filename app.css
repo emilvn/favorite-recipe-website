@@ -1,9 +1,18 @@
+/* standard farver til siden */
+:root {
+    --beige: rgb(224, 207, 182);
+    --dusty-green: rgb(131, 167, 129);
+    --light-dusty-green: rgb(174, 206, 172);
+}
+
+
+/* side overskrift */
 header {
     text-align: center;
     width: 100%;
-    background-color: rgb(131, 167, 129);
+    background-color: var(--dusty-green);
     color: white;
-    border: 1px solid rgb(131, 167, 129);
+    border: 1px solid var(--dusty-green);
 }
 
 body {
@@ -11,19 +20,20 @@ body {
     height: 100%;
     margin: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: white;
 }
 
+/* navigation bar */
 .nav {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    background-color:  rgb(224, 207, 182);
+    background-color:  var(--beige);
     height: 100%;
     width: 100%;
 }
 
+/* navigation bar buttons */
 .menu-btn {
-    background-color: rgb(224, 207, 182);
+    background-color: var(--beige);
     cursor: pointer;
     color: black;
     height: 100%;
@@ -33,6 +43,7 @@ body {
     font-style: italic;
 }
 
+/* grid container */
 .container {
    display: grid;
    align-items: center;
@@ -40,6 +51,7 @@ body {
    width: 100%;
 }
 
+/* recipe description section */
 .text {
     text-align: left;
     width: 100%;
@@ -47,17 +59,20 @@ body {
     background-color: white;
 }
 
+/* ingredients list section*/
 .ingredients {
-    background-color:  rgb(224, 207, 182);
+    background-color:  var(--beige);
     width: 100%;
     height: 100%;
 }
 
+/* cooking method section */
 .procedure {
     width: 200%;
     height: 100%;
 }
 
+/* bottom left image */
 .bottom-img {
     grid-column: 1/3;
     grid-row: 1;
@@ -65,22 +80,25 @@ body {
     height: 100%;
 }
 
+/* recipe rating section*/
 .rating {
-    background-color: rgb(224, 207, 182);
+    background-color: var(--beige);
     width: 100%;
     height: 100%;
     grid-column: 2/3;
     grid-row: 1;
 }
 
+/* nutrition table section*/
 .table {
     width: 100%;
     height: 100%;
-    background-color: rgb(224, 207, 182);
+    background-color: var(--beige);
     grid-column: 3/3;
     grid-row: 1;
 }
 
+/* nutrition table elements */
 .table table, th, td {
     border: 1px solid;
     border-collapse: collapse;
@@ -91,8 +109,9 @@ body {
     background-color: white;
 }
 
+/* footer section */
 footer {
-    background-color: rgb(174, 206, 172);
+    background-color: var(--light-dusty-green);
     width: 100%;
     height: 50px;
     padding-bottom: 10px;
