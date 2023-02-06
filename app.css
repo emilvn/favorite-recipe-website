@@ -1,69 +1,84 @@
 header {
     text-align: center;
-    width: 1080px;
-    background-color: rgb(60, 58, 58);
+    width: 100%;
+    background-color: rgb(131, 167, 129);
     border: 1px solid black;
     color: white;
 }
 
 body {
-    margin: auto;
-    width: 80%;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: gray;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
 }
 
-nav {
-    background-color: gray;
-    padding-top: 10px;
-    height: 30px;
-    width: 1080px;
-    border: 1px solid black;
-    text-align: center;
+.nav {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color:  rgb(224, 207, 182);
+    height: 100%;
+    width: 100%;
 }
 
 .menu-btn {
-    margin-right: 60px;
-    background-color: gray;
+    background-color: rgb(224, 207, 182);
     cursor: pointer;
-    color: white;
+    color: black;
+    height: 100%;
+    width: 100%;
+    grid-row: 1;
+    border: none;
+    font-style: italic;
 }
 
 .container {
    display: grid;
    align-items: center;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   width: 1080px;
+   grid-template-columns: repeat(3, 1fr);
+   width: 100%;
 }
 
 .text {
     text-align: left;
-    width: 540px;
-    height: 332px;
-    background-color: darkgrey;
-    border-right: 1px solid black;
-    padding-bottom: 27px;
+    width: 100%;
+    height: 447.71px;
+    background-color: white;
 }
 
-.list {
-    background-color: darkgray;
-    width: 540px;
-    height: 550px;
+.ingredients {
+    background-color:  rgb(224, 207, 182);
+    width: 100%;
+    height: 100%;
+}
+
+.procedure {
+    width: 200%;
+    height: 100%;
+}
+
+.bottom-img {
+    grid-column: 1/3;
+    grid-row: 1;
+    width: 50%;
+    height: 100%;
 }
 
 .rating {
-    background-color: darkgray;
-    width: 540px;
-    height: 200px;
-    border-top: 1px solid black;
+    background-color: rgb(224, 207, 182);
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 1;
 }
 
 .table {
-    width: 540px;
-    height: 200px;
-    background-color: darkgray;
-    border-top: 1px solid black;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(224, 207, 182);
+    grid-column: 3/3;
+    grid-row: 1;
 }
 
 .table table, th, td {
@@ -77,8 +92,9 @@ nav {
 }
 
 footer {
-    background-color: gray;
-    width: 1080px;
+    background-color: rgb(174, 206, 172);
+    width: 100%;
     height: 50px;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
