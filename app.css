@@ -42,19 +42,19 @@ header {
     background-color: var(--dusty-green);
     color: white;
     border: 1px solid var(--dusty-green);
-    font-family: seaweed;
+    font-family: seaweed, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* font til alle underoverskrifter */
 h2, h3, h4, h5, h6 {
-    font-family: domine;
+    font-family: domine, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
     width: 100%;
     height: 100%;
     margin: 0px;
-    font-family: hindsiliguri;
+    font-family: hindsiliguri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* navigation bar */
