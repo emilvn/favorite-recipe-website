@@ -58,7 +58,7 @@ body {
 }
 
 /* navigation bar */
-.nav {
+.menu {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     background-color:  var(--beige);
@@ -67,7 +67,7 @@ body {
 }
 
 /* navigation bar buttons */
-.menu-btn {
+.menu > button {
     background-color: var(--beige);
     cursor: pointer;
     color: black;
@@ -120,7 +120,7 @@ body {
 }
 
 /* bottom left image */
-.bottom-img {
+.img-div2 img {
     grid-column: 1/3;
     grid-row: 1;
     width: 100%;
