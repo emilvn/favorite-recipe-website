@@ -157,10 +157,22 @@ body {
 }
 
 /* footer section */
-footer {
+footer section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     background-color: var(--light-dusty-green);
     width: 100%;
-    height: 50px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    height: 100%;
+}
+
+footer section div{
+    grid-row: 1;
+    width: 100%;
+    height: 100%;
+}
+
+footer section div p {
+    text-align: center;
+    margin-left: 10px;
+    width: 100%
 }
