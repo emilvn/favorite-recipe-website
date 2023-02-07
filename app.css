@@ -141,7 +141,8 @@ body {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: var(--light-dusty-green);
+    padding: 10px;
 }
 
 /* footer section */
