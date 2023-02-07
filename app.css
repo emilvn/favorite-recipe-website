@@ -90,7 +90,7 @@ body {
 .text {
     text-align: left;
     width: 100%;
-    height: 447.71px;
+    height: 447px;
     background-color: white;
 }
 
@@ -109,7 +109,8 @@ body {
 
 .img-div1 {
     height: 100%;
-    width: 200%
+    width: 200%;
+    background-color: var(--beige);
 }
 
 .img-div2 {
