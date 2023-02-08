@@ -79,7 +79,14 @@ body {
 }
 
 /* grid container */
-.container {
+.container1 {
+   display: grid;
+   align-items: center;
+   grid-template-columns: 1fr 2fr;
+   width: 100%;
+}
+
+.container2 {
    display: grid;
    align-items: center;
    grid-template-columns: repeat(3, 1fr);
@@ -90,7 +97,6 @@ body {
 .text {
     text-align: left;
     width: 100%;
-    height: 447px;
     background-color: white;
 }
 
@@ -103,26 +109,22 @@ body {
 
 /* cooking method section */
 .procedure {
-    width: 200%;
-    height: 100%;
+    width: 100%;
+    background-color: white;
 }
 
 .img-div1 {
-    height: 100%;
-    width: 200%;
+    width: 100%;
     background-color: var(--beige);
 }
 
 .img-div2 {
     background-color: var(--beige);
-    height: 100%;
     width: 100%;
 }
 
 /* bottom left image */
 .img-div2 img {
-    grid-column: 1/3;
-    grid-row: 1;
     width: 100%;
 }
 
@@ -131,8 +133,6 @@ body {
     background-color: var(--beige);
     width: 100%;
     height: 100%;
-    grid-column: 2/3;
-    grid-row: 1;
 }
 
 /* nutrition table section*/
@@ -140,8 +140,6 @@ body {
     width: 100%;
     height: 100%;
     background-color: var(--beige);
-    grid-column: 3/3;
-    grid-row: 1;
 }
 
 /* nutrition table elements */
