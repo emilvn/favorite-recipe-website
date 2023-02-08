@@ -61,7 +61,7 @@ body {
 .menu {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    background-color:  var(--beige);
+    background-color: var(--beige);
     height: 100%;
     width: 100%;
 }
