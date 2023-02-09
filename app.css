@@ -57,7 +57,7 @@ body {
     font-family: hindsiliguri, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* navigation bar */
+/* navigation bar grid container*/
 .menu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -66,6 +66,7 @@ body {
     width: 100%;
 }
 
+/* ændrer nav grid når vinduet er større end 800px */
 @media (min-width: 800px) {
     .menu {
         grid-template-columns: repeat(7, 1fr);
@@ -83,7 +84,7 @@ body {
     font-style: italic;
 }
 
-/* grid container */
+/* grid container til den første del af siden*/
 .container1 {
    display: grid;
    align-items: center;
@@ -91,18 +92,21 @@ body {
    width: 100%;
 }
 
+/* ændrer grid når vinduet er større end 900px */
 @media (min-width: 900px) {
     .container1 {
         grid-template-columns: 1fr 1fr;
     }
 }
 
+/* ændrer grid når vinduet er større end 1000px */
 @media (min-width: 1000px) {
     .container1 {
         grid-template-columns: 1fr 2fr;
     }
 }
 
+/* grid container til den anden del af siden */
 .container2 {
    display: grid;
    align-items: center;
@@ -110,13 +114,15 @@ body {
    width: 100%;
 }
 
-@media (min-width: 800px) {
+/* ændrer grid når vinduet er større end 900px */
+@media (min-width: 900px) {
     .container2 {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (min-width: 992px) {
+/* ændrer grid når vinduet er større end 1000px */
+@media (min-width: 1000px) {
     .container2 {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -142,18 +148,13 @@ body {
     background-color: white;
 }
 
-.img-div1 {
+/* første b */
+.img-div {
     width: 100%;
     background-color: var(--beige);
 }
 
-.img-div2 {
-    background-color: var(--beige);
-    width: 100%;
-}
-
-/* bottom left image */
-.img-div2 img {
+.img-div img {
     width: 100%;
 }
 
