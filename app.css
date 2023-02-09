@@ -60,10 +60,16 @@ body {
 /* navigation bar */
 .menu {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     background-color: var(--beige);
     height: 100%;
     width: 100%;
+}
+
+@media (min-width: 800px) {
+    .menu {
+        grid-template-columns: repeat(7, 1fr);
+    }
 }
 
 /* navigation bar buttons */
@@ -73,7 +79,6 @@ body {
     color: black;
     height: 100%;
     width: 100%;
-    grid-row: 1;
     border: none;
     font-style: italic;
 }
@@ -82,15 +87,39 @@ body {
 .container1 {
    display: grid;
    align-items: center;
-   grid-template-columns: 1fr 2fr;
+   grid-template-columns: 1fr;
    width: 100%;
+}
+
+@media (min-width: 900px) {
+    .container1 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container1 {
+        grid-template-columns: 1fr 2fr;
+    }
 }
 
 .container2 {
    display: grid;
    align-items: center;
-   grid-template-columns: repeat(3, 1fr);
+   grid-template-columns: 1fr;
    width: 100%;
+}
+
+@media (min-width: 800px) {
+    .container2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    .container2 {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /* recipe description section */
