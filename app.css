@@ -67,13 +67,6 @@ body {
     width: 100%;
 }
 
-/* ændrer nav grid når vinduet er større end 800px */
-@media (min-width: 800px) {
-    .menu {
-        grid-template-columns: repeat(7, 1fr);
-    }
-}
-
 /* navigation bar buttons */
 .menu > button {
     background-color: var(--beige);
@@ -93,37 +86,33 @@ body {
    width: 100%;
 }
 
-/* ændrer grid når vinduet er større end 900px */
-@media (min-width: 900px) {
-    .container1 {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-/* ændrer grid når vinduet er større end 1000px */
-@media (min-width: 1000px) {
-    .container1 {
-        grid-template-columns: 1fr 2fr;
-    }
-}
-
 /* grid container til den anden del af siden */
 .container2 {
    display: grid;
    align-items: center;
    grid-template-columns: 1fr;
    width: 100%;
+   background-color: var(--beige);
 }
 
-/* ændrer grid når vinduet er større end 900px */
-@media (min-width: 900px) {
+/* ændrer grids når vinduet er større end 800px */
+@media (min-width: 800px) {
+    .menu {
+        grid-template-columns: repeat(7, 1fr);
+    }
+    .container1 {
+        grid-template-columns: 1fr 1fr;
+    }
     .container2 {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-/* ændrer grid når vinduet er større end 1000px */
+/* ændrer grids når vinduet er større end 1000px */
 @media (min-width: 1000px) {
+    .container1 {
+        grid-template-columns: 1fr 2fr;
+    }
     .container2 {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -162,7 +151,6 @@ body {
 
 /* recipe rating section color and size*/
 .rating {
-    background-color: var(--beige);
     width: 100%;
     height: 100%;
 }
@@ -171,7 +159,6 @@ body {
 .table {
     width: 100%;
     height: 100%;
-    background-color: var(--beige);
 }
 
 /* nutrition table and elements styling*/
