@@ -81,7 +81,6 @@ body {
 /* grid container til den første del af siden*/
 .container1 {
    display: grid;
-   align-items: center;
    grid-template-columns: 1fr;
    width: 100%;
 }
@@ -89,7 +88,6 @@ body {
 /* grid container til den anden del af siden */
 .container2 {
    display: grid;
-   align-items: center;
    grid-template-columns: 1fr;
    width: 100%;
    background-color: var(--beige);
@@ -140,7 +138,7 @@ body {
 
 /* billede div size*/
 .img-div {
-    width: 100%;
+    height: 50vh;
     background-color: var(--beige);
 }
 
@@ -153,12 +151,14 @@ body {
 .rating {
     width: 100%;
     height: 100%;
+    background-color: var(--beige);
 }
 
 /* nutrition table section color and size*/
 .table {
     width: 100%;
     height: 100%;
+    background-color: var(--beige);
 }
 
 /* nutrition table and elements styling*/
@@ -187,6 +187,7 @@ footer div{
     grid-row: 1;
     width: 100%;
     height: 100%;
+    background-color: var(--light-dusty-green);
 }
 
 /* centering elements in footer section */
