@@ -18,8 +18,8 @@
 /*importeret font til underoverskrifter*/
 @font-face {
     font-family: 'domine';
-    src: url('fonts/domine-variablefont_wght-webfont.woff2') format('woff2'),
-         url('fonts/domine-variablefont_wght-webfont.woff') format('woff');
+    src: url('../../favorite-recipe-website/fonts/domine-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../../favorite-recipe-website/fonts/domine-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -28,8 +28,8 @@
 /* importeret font til tekst */
 @font-face {
     font-family: 'hindsiliguri';
-    src: url('fonts/hindsiliguri-light-webfont.woff2') format('woff2'),
-         url('fonts/hindsiliguri-light-webfont.woff') format('woff');
+    src: url('../../favorite-recipe-website/fonts/hindsiliguri-light-webfont.woff2') format('woff2'),
+         url('../../favorite-recipe-website/fonts/hindsiliguri-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
