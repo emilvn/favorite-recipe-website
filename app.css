@@ -35,7 +35,7 @@
 
 }
 
-/* side overskrift */
+/* side overskrift styling and font*/
 header {
     text-align: center;
     width: 100%;
@@ -50,6 +50,7 @@ h2, h3, h4, h5, h6 {
     font-family: domine, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* body styling and fonts */
 body {
     width: 100%;
     height: 100%;
@@ -128,14 +129,14 @@ body {
     }
 }
 
-/* recipe description section */
+/* recipe description section styling*/
 .text {
     text-align: left;
     width: 100%;
     background-color: white;
 }
 
-/* ingredients list section*/
+/* ingredients list section styling*/
 .ingredients {
     background-color:  var(--beige);
     width: 100%;
@@ -148,31 +149,32 @@ body {
     background-color: white;
 }
 
-/* første b */
+/* billede div size*/
 .img-div {
     width: 100%;
     background-color: var(--beige);
 }
 
+/* sætter bredde på billede til 100% så den fylder sin div ud */
 .img-div img {
     width: 100%;
 }
 
-/* recipe rating section*/
+/* recipe rating section color and size*/
 .rating {
     background-color: var(--beige);
     width: 100%;
     height: 100%;
 }
 
-/* nutrition table section*/
+/* nutrition table section color and size*/
 .table {
     width: 100%;
     height: 100%;
     background-color: var(--beige);
 }
 
-/* nutrition table elements */
+/* nutrition table and elements styling*/
 .table table, th, td {
     border: 1px solid;
     border-collapse: collapse;
@@ -184,7 +186,7 @@ body {
     padding: 10px;
 }
 
-/* footer section */
+/* footer section grid container*/
 footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -193,12 +195,14 @@ footer {
     height: 100%;
 }
 
+/* footer section grid elements placement and size*/
 footer div{
     grid-row: 1;
     width: 100%;
     height: 100%;
 }
 
+/* centering elements in footer section */
 footer div p {
     text-align: center;
     width: 100%
