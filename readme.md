@@ -1,3 +1,3 @@
 ## Recipe website
-[live running project](emilvn.github.io/favorite-recipe-website)
+[live running project](https://emilvn.github.io/favorite-recipe-website)
 ***
